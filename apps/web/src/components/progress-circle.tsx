@@ -7,7 +7,7 @@ export function ProgressCircle({ progress }: ProgressCircleProps) {
     <svg className="w-full h-full" viewBox="0 0 100 100">
       <circle
         className="text-smoke-400 stroke-current"
-        strokeWidth="10"
+        strokeWidth="12"
         cx="50"
         cy="50"
         r="40"
@@ -16,7 +16,7 @@ export function ProgressCircle({ progress }: ProgressCircleProps) {
 
       <circle
         className="text-mirage-500 progress-ring__circle stroke-current"
-        strokeWidth="10"
+        strokeWidth="12"
         strokeLinecap="round"
         cx="50"
         cy="50"

@@ -8,7 +8,7 @@ const config: Config = {
     './src/app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
-    colors,
+    colors: { ...colors, current: 'currentColor' },
     spacing,
     borderRadius: radii,
     fontWeight: fonts.fontWeights,
