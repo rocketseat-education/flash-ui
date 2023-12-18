@@ -6,6 +6,7 @@ const config: Config = {
     './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
     './src/components/**/*.{js,ts,jsx,tsx,mdx}',
     './src/app/**/*.{js,ts,jsx,tsx,mdx}',
+    '../../packages/ui/src/**/*.tsx',
   ],
   theme: {
     colors: { ...colors, current: 'currentColor' },
@@ -14,6 +15,7 @@ const config: Config = {
     fontWeight: fonts.fontWeights,
     fontFamily: {
       sans: fonts.fontFamilies.default,
+      mono: 'monospace',
     },
     fontSize: fonts.fontSizes,
     lineHeight: fonts.lineHeights,
